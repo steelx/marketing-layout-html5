@@ -1,0 +1,79 @@
+@import url("reset.css");
+
+/*
+**
+** COMMONS
+**
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.resp_image {
+    display: block;
+}
+
+
+/*
+**
+** HEADER
+**
+*/
+
+.header {
+    background-color: #2d8dd6;
+}
+
+.header_bar,
+.featured {
+    width: 1150px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.header_bar {
+    padding: 20px 0;
+    margin-bottom: 125px;
+}
+
+.featured_content {
+    width: 50%;
+    float: left;
+}
+
+.featured_content h1 {
+    font-size: 42px;
+    font-weight: 100;
+    color: #FFFFFF;
+}
+
+
+.header_logo {
+    float: left;
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+}
+.header_menu {
+    float: right;
+    list-style: none;
+}
+.header_menu li {
+    display: inline;
+    margin: 0 10px;
+}
+.header_menu li a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+
+/*
+**
+** PRODUCTS
+**
+*/
