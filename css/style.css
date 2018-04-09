@@ -30,6 +30,23 @@ body {
     color: #8a9b9c;
 }
 
+.ruler {
+    border: none;
+    border-bottom: 1px solid #c5c5c5;
+}
+
+.btn {
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn-orange {
+    background-color: #eea345;
+    color: #FFFFFF;
+}
+
 /*
 **
 ** HEADER
@@ -51,9 +68,10 @@ body {
 }
 
 .featured_content h1 {
-    font-size: 42px;
+    font-size: 45px;
     font-weight: 100;
     color: #FFFFFF;
+    margin: 20px 10px;
 }
 
 
@@ -131,4 +149,32 @@ body {
     font-size: 16px;
     line-height: 24px;
     font-weight: 100;
+}
+
+
+.mid_section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.subscription_form {
+    width: 404px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.subscription_form input {
+    width: 280px;
+    height: 40px;
+    border: 1px solid #c5c5c5;
+    font-size: 14px;
+    color: #333333;
+    border-radius: 5px;
+    padding: 0 10px;
+}
+.subscription_form fieldset {
+    margin: 2px 4px;
+}
+.subscription_form fieldset,
+.subscription_form button {
+    float: left;
 }
